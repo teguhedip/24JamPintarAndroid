@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.teguhediprasetyo.www.a24jampintarandroid.PickerActivity">
+
+    <TextView
+        android:id="@+id/date_and_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Hello " />
+
+    <Button
+        android:id="@+id/day_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Set the Date " />
+
+    <Button
+        android:id="@+id/time_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set the Time" />
+</LinearLayout>
